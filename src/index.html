@@ -1,13 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Testnotifications</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Testnotifications</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script
+      src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js"
+      async
+    ></script>
+    <script>
+      window.WonderPush = window.WonderPush || [];
+      WonderPush.push([
+        "init",
+        {
+          webKey:
+            "6a66341b1379e134bd831be946dc65c978978562db33020a9a356317aa688b5e",
+        },
+      ]);
+    </script>
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
 </html>

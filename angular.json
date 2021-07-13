@@ -24,7 +24,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/wonderpush/wonderpush-worker-loader.min.js",
+              "src/assets/wonderpush/wonderpush.min.html"
             ],
             "styles": [
               "src/styles.css"
